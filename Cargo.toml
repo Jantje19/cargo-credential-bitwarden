@@ -1,0 +1,16 @@
+[package]
+name = "cargo-credential-bitwarden"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.78"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/Jantje19/cargo-credential-bitwarden#readme"
+repository = "https://github.com/Jantje19/cargo-credential-bitwarden"
+description = "A Cargo credential process that stores tokens in a Bitwarden vault."
+
+[dependencies]
+cargo-credential = "0.4.4"
+cfg-if = "1.0.0"
+serde = { version = "1.0.202", features = ["derive"] }
+serde_json = "1.0.117"
+url = "2.5.0"
